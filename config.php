@@ -38,7 +38,7 @@ $THEME->name = 'resilience';
 //
 $THEME->doctype = 'html5';
 $THEME->parents = array('bootstrapbase');
-$THEME->sheets = array('custom');
+$THEME->sheets = array('custom', 'block_courses_available');
 $THEME->supportscssoptimisation = false;
 $THEME->yuicssmodules = array();
 $THEME->enable_dock = true;
