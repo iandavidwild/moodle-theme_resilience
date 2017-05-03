@@ -17,13 +17,13 @@
 /**
  * The secure layout.
  *
- * @package   theme_clean
- * @copyright 2013 Moodle, moodle.org
+ * @package   theme_resilience
+ * @copyright 2013 Ian Wild
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 // Get the HTML for the settings bits.
-$html = theme_clean_get_html_for_settings($OUTPUT, $PAGE);
+$html = theme_resilience_get_html_for_settings($OUTPUT, $PAGE);
 
 // Set default (LTR) layout mark-up for a three column page.
 $regionmainbox = 'span9 desktop-first-column';
