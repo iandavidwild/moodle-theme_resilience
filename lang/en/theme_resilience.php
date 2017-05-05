@@ -69,3 +69,5 @@ $string['sitename'] = 'Display site name along with small logo';
 $string['sitenamedesc'] = 'If there is no small logo, the site name is always displayed in the navigation bar. If a small logo is set, it may be displayed with or without the site name.';
 $string['smalllogo'] = 'Small logo';
 $string['smalllogodesc'] = 'The small logo is displayed in the navigation bar. If there is a header logo for the front page and login page, the small logo is not displayed on these pages.';
+$string['backgrounddesc'] = 'Zaatari refugee camp, Jordan, 2013. UK Foreign and Commonwealth Office';
+$string['ogl1'] = 'Open Government License Version 1';
