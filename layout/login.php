@@ -1,12 +1,4 @@
-<?php
-
-$hasnavbar = (empty($PAGE->layout_options['nonavbar']) && $PAGE->has_navbar());
-$hassidepre = $PAGE->blocks->region_has_content('side-pre', $OUTPUT);
-$hassidepost = $PAGE->blocks->region_has_content('side-post', $OUTPUT);
-$showsidepre = $hassidepre && !$PAGE->blocks->region_completely_docked('side-pre', $OUTPUT);
-$showsidepost = $hassidepost && !$PAGE->blocks->region_completely_docked('side-post', $OUTPUT);
-
-$OUTPUT->doctype(); ?>
+<?php $OUTPUT->doctype(); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
@@ -36,6 +28,14 @@ $OUTPUT->doctype(); ?>
 <div id="page-footer" class="clearfix">
 
     <?php
+    $description = get_string('backgrounddesc', 'theme_resilience');
+    $copyright = get_string('ogl1', 'theme_resilience');
+    $url = new moodle_url('https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/');
+    $html = html_writer::start_div('image_copyright');
+    $html .= $description . ' - ';
+    $html .= html_writer::link($url, $copyright, array('class'=>'background_copyright', 'target'=>'_blank'));
+    $html .= html_writer::end_div();
+    echo $html;
     echo $OUTPUT->standard_footer_html();
     ?>
 </div>
