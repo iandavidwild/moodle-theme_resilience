@@ -21,9 +21,7 @@ div.loginpanel {
 div.loginbox {
 	background-color: rgba(255,255,255,0.8);
 	width: 400px;
-	margin: 0 auto;
-	margin-top: 5%;
-	margin-bottom: 20%;	
+	margin: 5% auto 20% auto;
 	-moz-box-shadow: 0 0 30px 5px #999;
     -webkit-box-shadow: 0 0 30px 5px #999;
 }
