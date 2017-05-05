@@ -46,3 +46,11 @@ $THEME->editor_sheets = array();
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->csspostprocess = 'theme_resilience_process_css';
+
+$THEME->layouts = array(
+    'login' => array(
+            'file' => 'login.php',
+            'regions' => array('side-post'),
+            'defaultregion' => 'side-post',
+    ),      
+);
