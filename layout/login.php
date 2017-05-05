@@ -33,15 +33,6 @@ $OUTPUT->doctype(); ?>
   </div>
 </div>
 
-</body>
-</html>
-
-
-
-
-
-
-
 <div id="page-footer" class="clearfix">
 
     <?php
