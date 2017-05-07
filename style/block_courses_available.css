@@ -42,3 +42,16 @@ a.course_link {
     background: url([[pix:theme|courselink]])  3px 2px no-repeat #f3f3f3;
     padding-left: 30px;
 }
+
+#page-blocks-courses_available-overview div.singlebutton {
+    display: inline-block;
+}
+
+#page-blocks-courses_available-overview div.overviewicon {
+    float: left;
+    margin-right: 1em;
+}
+
+#page-blocks-courses_available-overview div.summarycontainer div.no-overflow {
+	overflow: inherit;
+}
